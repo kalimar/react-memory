@@ -1,3 +1,5 @@
 import React from 'react';
+import App from 'components/App';
 
-React.render(<div>My Memory Game</div>, document.body);
+require('assets/app.scss')
+React.render(<App />, document.body);
